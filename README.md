@@ -13,3 +13,12 @@ Before starting the installation, make sure you have:
 3. Docker and jq installed
 
 If you don't have Docker or jq, don't worry! We'll walk you through the process of installing them below.
+
+## Step 1: Update Your System
+
+First, update your system packages to ensure everything is up to date:
+
+```bash
+sudo apt-get update && sudo apt-get upgrade -y
+
+sudo apt-get install jq -y
